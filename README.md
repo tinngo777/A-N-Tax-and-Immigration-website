@@ -15,11 +15,11 @@ The site is built with **React, Vite, and Tailwind CSS** for fast performance an
 ## ⚙️ Development
 To run this project locally:
 
-Install dependencies
+Install dependencies:
 npm install
 
-Start dev server
+Start dev server:
 npm run dev
 
-Build for production
+Build for production:
 npm run build
