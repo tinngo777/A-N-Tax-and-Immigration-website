@@ -4,7 +4,7 @@ import Card from '../components/Card';
 const ContactUs = ({ T }) => {
     // IMPORTANT: Replace this with your actual Formspree endpoint URL.
     // Go to formspree.io to create a new form and get your unique ID.
-    const FORM_ENDPOINT = "https://formspree.io/f/your_form_id_here";
+    const FORM_ENDPOINT = "https://formspree.io/f/mqaybdyj";
 
     return (
         <Card title={T.contactTitle}>
