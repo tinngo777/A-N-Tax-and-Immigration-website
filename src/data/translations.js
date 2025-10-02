@@ -1,7 +1,5 @@
 // --- Translation Data ---
-// All text is stored here for easy language switching (i18n).
-// Keeping this in a separate file makes it easy to manage and update text
-// without touching the component code.
+// All text data is saved here
 
 export const translations = {
   en: {
@@ -11,24 +9,31 @@ export const translations = {
     navServices: 'OUR SERVICES',
     navHours: 'OFFICE HOURS',
     navContact: 'CONTACT US',
+
     // Hero Section
     heroQuote: "TAX AND IMMIGRATION IS HARD. WE'RE TO HELP.",
+
     // Home Content
     homeTitle: 'At A&N, we can help you with:',
     taxServices: 'Tax Services',
-    taxList: ['Individual Tax Filing', 'Business Tax Preparation', 'Tax Planning', 'Bookkeeping'],
+    taxList: ['Individual Tax', 'Business Tax', 'Bookkeeping', 'Sales Tax'],
     immigrationServices: 'Immigration Services',
-    immigrationList: ['Family-Based Petitions', 'Green Card Applications', 'Naturalization Application', 'Adjustment of Status'],
+    immigrationList: ['Family-Based Sponsor', 'Green Card Renewal', 'Naturalization Application', 'Adjustment of Status'],
     findOutMore: 'Want to find out more?',
     ourServicesLink: 'Explore Our Services',
     haveQuestions: 'Have some questions for us?',
     contactUsLink: 'Contact Us',
+
     // About Page
     aboutTitle: 'About A&N Services',
     aboutText: 'Founded over 20 years with the goal of providing clear, reliable, and friendly service, A&N has been helping individuals and businesses navigate the complexities of tax and immigration law for over a decade. Our team is dedicated to understanding your unique situation and providing personalized solutions. We believe in building long-term relationships with our clients based on trust and success.',
+    
     // Services Page
     servicesTitle: 'Our Services',
     servicesIntro: 'We offer a comprehensive range of services to meet your tax and immigration needs.',
+    taxServicesList: ['Individual Tax', 'Business Tax', 'Bookkeeping', 'Sales Tax', 'Payroll Services', 'Franchise Tax', 'New Corporation, LLC, Partnership'],
+    immigrationServicesList: ['Family-Based Sponsor', 'Green Card Renewal', 'Naturalization Application', 'Adjustment of Status', 'Power of Attorney', 'Affidavit of Single Status', 'Apply/Renew US and VN Passport', 'Apply for VN Visa', 'Travel to the US', 'Study in the US'],
+
     // Office Hours Page
     hoursTitle: 'Our Office Hours',
     schedule: {
@@ -37,6 +42,7 @@ export const translations = {
       'Sunday, Monday, Wednesday': 'Closed',
     },
     holidays: 'We are closed on all major public holidays.',
+    
     // Contact Page
     contactTitle: 'Get In Touch',
     contactIntro: 'Have a question or want to schedule an appointment? Fill out the form below or contact us directly. We\'ll get back to you as soon as possible.',
@@ -46,6 +52,7 @@ export const translations = {
     formSubject: 'Subject',
     formMessage: 'Your Message',
     formSubmit: 'Send Message',
+    
     // Footer
     footerContact: 'Contact Us',
     footerAddress: '2615 W Pioneer Pkwy, Suite 111, Grand Prairie, TX 75051',
@@ -58,25 +65,32 @@ export const translations = {
     navServices: 'DỊCH VỤ',
     navHours: 'GIỜ LÀM VIỆC',
     navContact: 'LIÊN HỆ',
+    
     // Hero Section
     heroQuote: 'THUẾ VÀ DI TRÚ CÓ THỂ PHỨC TẠP. HÃY ĐỂ CHÚNG TÔI GIÚP BẠN.',
+    
     // Home Content
     homeTitle: 'Tại A&N, chúng tôi có thể giúp bạn với:',
     taxServices: 'Dịch Vụ Thuế',
-    taxList: ['Khai Thuế Cá Nhân', 'Khai Thuế Doanh Nghiệp', 'Hoạch Định Thuế', 'Đại Diện Trước Sở Thuế (IRS)'],
+    taxList: ['Khai Thuế Cá Nhân', 'Khai Thuế Doanh Nghiệp', 'Giữ Sổ Sách', 'Thuế Môn Bài'],
     immigrationServices: 'Dịch Vụ Di Trú',
-    immigrationList: ['Bảo Lãnh Thân Nhân', 'Đơn Xin Thẻ Xanh', 'Quốc Tịch & Nhập Tịch', 'Đơn Xin Thị Thực (Visa)'],
+    immigrationList: ['Bảo Lãnh Thân Nhân', 'Gia Hạn Thẻ Xanh', 'Đơn Xin Thi Quốc Tịch', 'Thay Đổi Tình Trạng Nhập Cư'],
     findOutMore: 'Bạn muốn tìm hiểu thêm?',
     ourServicesLink: 'Khám Phá Dịch Vụ',
     haveQuestions: 'Bạn có câu hỏi cho chúng tôi?',
     contactUsLink: 'Liên Hệ Với Chúng Tôi',
+    
     // About Page
     aboutTitle: 'Về Dịch Vụ A&N',
     aboutText: 'Được thành lập hơn 20 năm trước với mục tiêu cung cấp dịch vụ rõ ràng, đáng tin cậy và thân thiện, A&N đã giúp các cá nhân và doanh nghiệp giải quyết các vấn đề phức tạp về luật thuế và di trú trong hơn một thập kỷ. Đội ngũ của chúng tôi luôn tận tâm tìm hiểu hoàn cảnh riêng của bạn và cung cấp các giải pháp được cá nhân hóa. Chúng tôi tin tưởng vào việc xây dựng mối quan hệ lâu dài với khách hàng dựa trên sự tin cậy và thành công.',
+    
     // Services Page
     servicesTitle: 'Các Dịch Vụ Của Chúng Tôi',
     servicesIntro: 'Chúng tôi cung cấp một loạt các dịch vụ toàn diện để đáp ứng nhu cầu về thuế và di trú của bạn.',
-     // Office Hours Page
+    taxServicesList: ['Khai Thuế Cá Nhân', 'Khai Thuế Doanh Nghiệp', 'Giữ Sổ Sách', 'Thuế Môn Bài', 'Làm Sổ Lương', 'Thuế Nhượng Quyền', 'Mở Công Ty Mới'],
+    immigrationServicesList: ['Bảo Lãnh Thân Nhân', 'Gia Hạn Thẻ Xanh', 'Đơn Xin Thi Quốc Tịch', 'Thay Đổi Tình Trạng Nhập Cư', 'Hợp Đồng Ủy Quyền', 'Công Hàm Độc Thân', 'Đơn Xin và Gia Hạn Passport Hoa Kì và Việt Nam', 'Xin Thị Thực Việt Nam', 'Du Lịch Hoa Kỳ', 'Học tại Hoa Kỳ'],
+    
+    // Office Hours Page
     hoursTitle: 'Giờ Làm Việc Của Văn Phòng',
     schedule: {
       'Thứ Ba, Thứ Năm, Thứ Sáu': '10:00 SA - 5:00 CH',
@@ -84,6 +98,7 @@ export const translations = {
       'Chủ Nhật, Thứ Hai, Thứ Tư': 'Đóng Cửa',
     },
     holidays: 'Chúng tôi đóng cửa vào tất cả các ngày lễ lớn.',
+    
     // Contact Page
     contactTitle: 'Liên Hệ',
     contactIntro: 'Bạn có câu hỏi hoặc muốn đặt lịch hẹn? Vui lòng điền vào biểu mẫu dưới đây hoặc liên hệ trực tiếp với chúng tôi. Chúng tôi sẽ trả lời bạn sớm nhất có thể.',
@@ -93,6 +108,7 @@ export const translations = {
     formSubject: 'Chủ Đề',
     formMessage: 'Nội Dung Tin Nhắn',
     formSubmit: 'Gửi Tin Nhắn',
+    
     // Footer
     footerContact: 'Thông Tin Liên Lạc',
     footerAddress: '2615 W Pioneer Pkwy, Suite 111, Grand Prairie, TX 75051',

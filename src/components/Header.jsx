@@ -5,10 +5,10 @@ import logo from '../assets/anlogo3.png';
 const Header = ({ setPage, lang, setLang, T }) => {
   const navItems = [
     { id: 'home', label: T.navHome },
-    { id: 'about', label: T.navAbout },
     { id: 'services', label: T.navServices },
     { id: 'hours', label: T.navHours },
     { id: 'contact', label: T.navContact },
+    { id: 'about', label: T.navAbout },
   ];
 
   return (
