@@ -12,7 +12,6 @@ const OfficeHours = ({ T }) => (
                     </div>
                 ))}
             </div>
-            <p className="text-center text-gray-600 mt-6">{T.holidays}</p>
         </div>
     </Card>
 );

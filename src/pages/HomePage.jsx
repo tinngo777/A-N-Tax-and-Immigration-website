@@ -4,7 +4,7 @@ const HomePage = ({ T, setPage }) => (
   <div className="container mx-auto text-center animate-fade-in-up">
     <div className="bg-white rounded-lg shadow-xl p-8 md:p-12 my-8">
       {/* Hero heading */}
-      <h2 className="text-2xl md:text-4xl font-bold text-blue-900 mb-6 border-b-4 border-[#90EE90] inline-block pb-2">
+      <h2 className="text-2xl md:text-4xl font-bold text-blue-900 mb-6 border-b-4 border-[#90EE90] inline-block pb-1">
         {T.heroQuote}
       </h2>
       

@@ -1,5 +1,6 @@
 // --- Translation Data ---
 // All text data is saved here
+// There are currently 2 options: english and vietnamese (tieng viet)
 
 export const translations = {
   en: {
@@ -11,7 +12,7 @@ export const translations = {
     navContact: 'CONTACT US',
 
     // Hero Section
-    heroQuote: "TAX AND IMMIGRATION IS HARD. WE'RE TO HELP.",
+    heroQuote: "TAX AND IMMIGRATION IS COMPLICATED. WE'RE HERE TO SERVE.",
 
     // Home Content
     homeTitle: 'At A&N, we can help you with:',
@@ -26,7 +27,7 @@ export const translations = {
 
     // About Page
     aboutTitle: 'About A&N Services',
-    aboutText: 'Founded over 20 years with the goal of providing clear, reliable, and friendly service, A&N has been helping individuals and businesses navigate the complexities of tax and immigration law for over a decade. Our team is dedicated to understanding your unique situation and providing personalized solutions. We believe in building long-term relationships with our clients based on trust and success.',
+    aboutText: 'Founded over 20 years with the goal of providing clear, reliable, and friendly service, A&N has been helping individuals and businesses navigate through the complexities of tax and immigration. Our team is dedicated to understand your unique situation and providing personalized solutions. We believe in building long-term relationships with our clients based on trust and success.',
     
     // Services Page
     servicesTitle: 'Our Services',
@@ -39,9 +40,9 @@ export const translations = {
     schedule: {
       'Tuesday, Thursday, Friday': '10:00 AM - 5:00 PM',
       'Saturday': '11:00 PM - 5:00 PM',
-      'Sunday, Monday, Wednesday': 'Closed',
+      'Monday, Wednesday':'Appointment only',
+      'Sunday': 'Closed',
     },
-    holidays: 'We are closed on all major public holidays.',
     
     // Contact Page
     contactTitle: 'Get In Touch',
@@ -67,41 +68,41 @@ export const translations = {
     navContact: 'LIÊN HỆ',
     
     // Hero Section
-    heroQuote: 'THUẾ VÀ DI TRÚ CÓ THỂ PHỨC TẠP. HÃY ĐỂ CHÚNG TÔI GIÚP BẠN.',
+    heroQuote: 'THUẾ VÀ DI TRÚ CÓ THỂ PHỨC TẠP. CHÚNG TÔI Ở ĐÂY ĐỂ GIÚP BẠN.',
     
     // Home Content
     homeTitle: 'Tại A&N, chúng tôi có thể giúp bạn với:',
     taxServices: 'Dịch Vụ Thuế',
-    taxList: ['Khai Thuế Cá Nhân', 'Khai Thuế Doanh Nghiệp', 'Giữ Sổ Sách', 'Thuế Môn Bài'],
+    taxList: ['Khai Thuế Cá Nhân', 'Khai Thuế Doanh Nghiệp', 'Kế Toán Chứng Từ', 'Thuế Kinh Doanh'],
     immigrationServices: 'Dịch Vụ Di Trú',
     immigrationList: ['Bảo Lãnh Thân Nhân', 'Gia Hạn Thẻ Xanh', 'Đơn Xin Thi Quốc Tịch', 'Thay Đổi Tình Trạng Nhập Cư'],
     findOutMore: 'Bạn muốn tìm hiểu thêm?',
     ourServicesLink: 'Khám Phá Dịch Vụ',
     haveQuestions: 'Bạn có câu hỏi cho chúng tôi?',
-    contactUsLink: 'Liên Hệ Với Chúng Tôi',
+    contactUsLink: 'Liên Lạc Với Chúng Tôi',
     
     // About Page
     aboutTitle: 'Về Dịch Vụ A&N',
-    aboutText: 'Được thành lập hơn 20 năm trước với mục tiêu cung cấp dịch vụ rõ ràng, đáng tin cậy và thân thiện, A&N đã giúp các cá nhân và doanh nghiệp giải quyết các vấn đề phức tạp về luật thuế và di trú trong hơn một thập kỷ. Đội ngũ của chúng tôi luôn tận tâm tìm hiểu hoàn cảnh riêng của bạn và cung cấp các giải pháp được cá nhân hóa. Chúng tôi tin tưởng vào việc xây dựng mối quan hệ lâu dài với khách hàng dựa trên sự tin cậy và thành công.',
+    aboutText: 'Được thành lập hơn 20 năm trước với mục tiêu cung cấp dịch vụ rõ ràng, đáng tin cậy và thân thiện, A&N đã hỗ trợ các cá nhân và doanh nghiệp giải quyết các vấn đề về thuế và di trú. Đội ngũ của chúng tôi luôn tận tâm tìm hiểu hoàn cảnh riêng của từng khách hàng và cung cấp các giải pháp dành riêng cho bạn. Chúng tôi tin tưởng vào việc xây dựng mối quan hệ lâu dài với khách hàng dựa trên sự tin cậy và thành công.',
     
     // Services Page
     servicesTitle: 'Các Dịch Vụ Của Chúng Tôi',
     servicesIntro: 'Chúng tôi cung cấp một loạt các dịch vụ toàn diện để đáp ứng nhu cầu về thuế và di trú của bạn.',
-    taxServicesList: ['Khai Thuế Cá Nhân', 'Khai Thuế Doanh Nghiệp', 'Giữ Sổ Sách', 'Thuế Môn Bài', 'Làm Sổ Lương', 'Thuế Nhượng Quyền', 'Mở Công Ty Mới'],
+    taxServicesList: ['Khai Thuế Cá Nhân', 'Khai Thuế Doanh Nghiệp', 'Kế Toán Chứng Từ', 'Thuế Kinh Doanh', 'Làm Sổ Lương', 'Thuế Nhượng Quyền', 'Mở Công Ty Mới'],
     immigrationServicesList: ['Bảo Lãnh Thân Nhân', 'Gia Hạn Thẻ Xanh', 'Đơn Xin Thi Quốc Tịch', 'Thay Đổi Tình Trạng Nhập Cư', 'Hợp Đồng Ủy Quyền', 'Công Hàm Độc Thân', 'Đơn Xin và Gia Hạn Passport Hoa Kì và Việt Nam', 'Xin Thị Thực Việt Nam', 'Du Lịch Hoa Kỳ', 'Học tại Hoa Kỳ'],
     
     // Office Hours Page
     hoursTitle: 'Giờ Làm Việc Của Văn Phòng',
     schedule: {
-      'Thứ Ba, Thứ Năm, Thứ Sáu': '10:00 SA - 5:00 CH',
-      'Thứ Bảy': '11:00 SA - 5:00 CH',
-      'Chủ Nhật, Thứ Hai, Thứ Tư': 'Đóng Cửa',
+      'Thứ Ba, Thứ Năm, Thứ Sáu': '10:00 AM - 5:00 PM',
+      'Thứ Bảy': '11:00 AM - 5:00 PM',
+      'Thứ Hai, Thứ Tư':'Theo lịch hẹn',
+      'Chủ Nhật': 'Đóng Cửa',
     },
-    holidays: 'Chúng tôi đóng cửa vào tất cả các ngày lễ lớn.',
     
     // Contact Page
     contactTitle: 'Liên Hệ',
-    contactIntro: 'Bạn có câu hỏi hoặc muốn đặt lịch hẹn? Vui lòng điền vào biểu mẫu dưới đây hoặc liên hệ trực tiếp với chúng tôi. Chúng tôi sẽ trả lời bạn sớm nhất có thể.',
+    contactIntro: 'Bạn muốn đặt lịch hẹn hoặc có câu hỏi? Vui lòng điền vào biểu mẫu dưới đây hoặc liên hệ trực tiếp với chúng tôi. Chúng tôi sẽ trả lời bạn sớm nhất có thể.',
     formName: 'Họ và Tên',
     formPhone: 'Số Điện Thoại',
     formEmail: 'Địa Chỉ Email',
